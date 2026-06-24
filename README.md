@@ -1,10 +1,13 @@
 ﻿# Paper Trade Plugin
 
+> 🇺🇦 Репозиторій було перенесено на новий з деяких причин, подальші оновлення виходитимуть у цьому репозиторії.
+> 🇬🇧 The repository has been moved to a new one for certain reasons, further updates will be released in this repository.
+
 A Paper 26.1.2 plugin that allows players to safely trade items with each other at any distance using a GUI.
 
 ---
 
-## Українська
+## Ukrainian
 
 ### Опис
 Плагін для безпечного обміну предметами між гравцями на будь-якій відстані через зручний GUI інтерфейс.
