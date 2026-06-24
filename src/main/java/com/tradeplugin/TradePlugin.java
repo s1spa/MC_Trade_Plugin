@@ -46,6 +46,20 @@ public class TradePlugin extends JavaPlugin {
                                 .append(Component.text("JopaBoBu").color(NamedTextColor.YELLOW))),
                 halfInterval, intervalTicks);
 
+        long thirdOffset = 20L * 60 * 3; // офсет 3 хвилини
+        Bukkit.getScheduler().runTaskTimer(this, () ->
+                Bukkit.broadcast(
+                        Component.text("✦ Плагін «Трейди» — ")
+                                .color(NamedTextColor.GOLD)
+                                .append(Component.text("Знайшли баг? Повідомте Адміністраторам або в GitHub →")
+                                        .color(NamedTextColor.GRAY))
+                                .append(Component.text("GitHub Issues")
+                                        .color(NamedTextColor.AQUA)
+                                        .decorate(TextDecoration.UNDERLINED)
+                                        .clickEvent(ClickEvent.openUrl("https://github.com/s1spa/MC_Trade_Plugin/issues"))
+                                        .hoverEvent(HoverEvent.showText(Component.text("Відкрити GitHub Issues"))))),
+                thirdOffset, intervalTicks);
+
         getLogger().info("TradePlugin увімкнено.");
     }
 
