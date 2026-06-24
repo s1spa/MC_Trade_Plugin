@@ -1,0 +1,16 @@
+name: TradePlugin
+version: 1.0.0
+main: com.tradeplugin.TradePlugin
+api-version: '26.1.2'
+description: Player-to-player trading GUI plugin
+
+commands:
+  trade:
+    description: Send a trade request to another player
+    usage: /trade <player>
+    permission: tradeplugin.use
+
+permissions:
+  tradeplugin.use:
+    description: Allows using /trade
+    default: true
